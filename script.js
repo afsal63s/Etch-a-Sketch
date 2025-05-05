@@ -4,7 +4,7 @@ const buttonChange=document.querySelector("#change-grid");
 const gridFormat=document.querySelector("#format");
 
 main.style.display="none";
-
+8
 buttonChange.addEventListener("click",()=>{
     main.innerHTML='';
     gridSize=parseInt(prompt("Enter a value (max 64)."));
@@ -26,9 +26,7 @@ buttonChange.addEventListener("click",()=>{
                     square.style.backgroundColor=randomColor;
             });
 
-            square.addEventListener("mouseout",()=>{
-                square.style.backgroundColor="";
-            });
+        
             
         }
         main.appendChild(row);
