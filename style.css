@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    background-color: hsl(0, 0%, 7%);
+    color: hsl(40, 4%, 73%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    font-size: 3rem;
+}
+
+div{
+    border: 1px solid hsl(0, 0%, 40%);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#change-grid{
+    padding: 6px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+}
+
+.row-container{
+    display: flex;
+    
+    
+}
+
+.square-container{
+ 
+  transition: background-color 0.3s ease;
+}
+
+.square-container:hover{
+    cursor: grab;
+}
+
+#format{
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: oblique;
+
+}
